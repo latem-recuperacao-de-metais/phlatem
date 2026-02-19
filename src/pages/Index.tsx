@@ -301,14 +301,14 @@ const Index = () => {
               </div>
             </div>
 
-            {/* Center message */}
-            <div className="text-center max-w-xs">
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Este teste é parte do programa de{" "}
-                <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
-                Sua participação é essencial.
-              </p>
-            </div>
+            {/* Adicionei 'mx-auto' na primeira linha */}
+<div className="text-center max-w-xs mx-auto">
+  <p className="text-muted-foreground text-sm leading-relaxed">
+    Este teste é parte do programa de{" "}
+    <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
+    Sua participação é essencial.
+  </p>
+</div>
 
             {/* Contact */}
             <div className="text-center md:text-right">
