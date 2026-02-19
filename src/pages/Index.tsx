@@ -296,8 +296,8 @@ const Index = () => {
                 <p className="font-mono text-xs text-muted-foreground tracking-widest uppercase mb-1">
                   Powered by
                 </p>
-                <p className="font-extrabold text-xl section-title">Segurança Corporativa</p>
-                <p className="text-muted-foreground text-xs mt-0.5">Equipe de Cibersegurança</p>
+                <p className="font-extrabold text-xl section-title">LATEM</p>
+                <p className="text-muted-foreground text-xs mt-0.5">Equipe de TI</p>
               </div>
             </div>
 
@@ -305,7 +305,7 @@ const Index = () => {
             <div className="text-center max-w-xs">
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Este teste é parte do programa de{" "}
-                <span className="text-foreground font-medium">Treinamento em Segurança</span> da sua organização.
+                <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
                 Sua participação é essencial.
               </p>
             </div>
@@ -316,11 +316,11 @@ const Index = () => {
                 Suporte de TI
               </p>
               <a
-                href="mailto:seguranca@empresa.com.br"
+                href="mailto:ti@empresa.com.br"
                 className="flex items-center gap-2 text-neon-blue hover:text-neon-glow transition-colors duration-200 font-medium text-sm mb-2"
               >
                 <Mail className="w-4 h-4" />
-                seguranca@empresa.com.br
+               ti@empresa.com.br
               </a>
               <a
                 href="tel:+551100000000"
