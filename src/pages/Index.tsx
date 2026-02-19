@@ -296,8 +296,7 @@ const Index = () => {
                 <p className="font-mono text-xs text-muted-foreground tracking-widest uppercase mb-1">
                   Powered by
                 </p>
-                <p className="font-extrabold text-xl section-title">LATEM</p>
-                <p className="text-muted-foreground text-xs mt-0.5">Equipe de TI</p>
+                <p className="font-extrabold text-xl section-title"> Equipe de TI LATEM</p>
               </div>
             </div>
 
@@ -316,11 +315,11 @@ const Index = () => {
                 Suporte de TI
               </p>
               <a
-                href="mailto:ti@empresa.com.br"
+                href="mailto:ti@latem.com.br"
                 className="flex items-center gap-2 text-neon-blue hover:text-neon-glow transition-colors duration-200 font-medium text-sm mb-2"
               >
                 <Mail className="w-4 h-4" />
-               ti@empresa.com.br
+               ti@latem.com.br
               </a>
               <a
                 href="tel:+551100000000"
