@@ -296,19 +296,26 @@ const Index = () => {
                 <p className="font-mono text-xs text-muted-foreground tracking-widest uppercase mb-1">
                   Powered by
                 </p>
-                <p className="font-extrabold text-xl section-title">Equipe de TI</p>
-                <p className="font-extrabold text-xl section-title">LATEM</p>
+                <p className="font-extrabold text-xl section-title">Equipe</p>
+                <p className="font-extrabold text-xl section-title"> de TI LATEM</p>
               </div>
             </div>
 
-            {/* Adicionei 'mx-auto' na primeira linha */}
-<div className="text-center max-w-xs mx-auto">
-  <p className="text-muted-foreground text-sm leading-relaxed">
-    Este teste é parte do programa de{" "}
-    <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
-    Sua participação é essencial.
-  </p>
-</div>
+            {/* Center message */}
+
+            <div className="text-center max-w-xs">
+
+              <p className="text-muted-foreground text-sm leading-relaxed">
+
+                Este teste é parte do programa de{" "}
+
+                <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
+
+                Sua participação é essencial.
+
+              </p>
+
+            </div>
 
             {/* Contact */}
             <div className="text-center md:text-right">
