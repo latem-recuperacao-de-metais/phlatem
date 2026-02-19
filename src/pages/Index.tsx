@@ -333,7 +333,7 @@ const Index = () => {
                 className="flex items-center gap-2 text-silver hover:text-silver-bright transition-colors duration-200 text-sm"
               >
                 <Phone className="w-4 h-4" />
-                (11) 0000-0000
+                (15) 99782-9881
               </a>
             </div>
           </div>
