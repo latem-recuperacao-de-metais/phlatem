@@ -329,7 +329,7 @@ const Index = () => {
                ti@latem.com.br
               </a>
               <a
-                href="tel:+551100000000"
+                href="tel:+5515997829881"
                 className="flex items-center gap-2 text-silver hover:text-silver-bright transition-colors duration-200 text-sm"
               >
                 <Phone className="w-4 h-4" />
