@@ -296,7 +296,8 @@ const Index = () => {
                 <p className="font-mono text-xs text-muted-foreground tracking-widest uppercase mb-1">
                   Powered by
                 </p>
-                <p className="font-extrabold text-xl section-title"> Equipe de TI <br>LATEM</br></p>
+                <p className="font-extrabold text-xl section-title">Equipe de TI</p>
+                <p className="font-extrabold text-xl section-title">LATEM</p>
               </div>
             </div>
 
