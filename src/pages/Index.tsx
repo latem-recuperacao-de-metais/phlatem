@@ -301,7 +301,7 @@ const Index = () => {
           <div className="glass-card rounded-2xl p-10 flex flex-col md:flex-row items-center justify-between gap-8">
             {/* Logo / Company */}
             <div className="flex items-center gap-4">
-             <div className="w-10 h-10 flex items-center justify-center"> 
+             <div className="w-15 h-15 flex items-center justify-center"> 
   <img 
     src="/logo.png" 
     alt="Logo da Empresa" 
