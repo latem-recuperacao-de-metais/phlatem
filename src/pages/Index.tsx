@@ -102,9 +102,9 @@ const Index = () => {
     <div className="min-h-screen bg-background font-sans">
       {/* Fixed Logo */}
       <div className="fixed top-4 left-4 z-50">
-        <div className="w-24 h-24 flex items-center justify-center"> {/* Ajuste o w- e h- para o tamanho desejado */}
+        <div className="w-24 h-24 flex items-center justify-center"> 
   <img 
-    src="/logo.png"  /* O nome exato do arquivo que você subiu */
+    src="logo.png"  
     alt="Logo da Empresa" 
     className="w-full h-full object-contain" 
   />
