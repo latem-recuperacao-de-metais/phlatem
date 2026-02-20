@@ -301,9 +301,13 @@ const Index = () => {
           <div className="glass-card rounded-2xl p-10 flex flex-col md:flex-row items-center justify-between gap-8">
             {/* Logo / Company */}
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 rounded-xl flex items-center justify-center silver-shine border border-border">
-                <Building2 className="w-7 h-7 text-silver-bright" strokeWidth={1.5} />
-              </div>
+             <div className="w-24 h-24 flex items-center justify-center"> {/* Ajuste o w- e h- para o tamanho desejado */}
+  <img 
+    src="/logo-empresa.png"  /* O nome exato do arquivo que você subiu */
+    alt="Logo da Empresa" 
+    className="w-full h-full object-contain" 
+  />
+</div>
               <div>
                 <p className="font-mono text-xs text-muted-foreground tracking-widest uppercase mb-1">
                   Powered by
