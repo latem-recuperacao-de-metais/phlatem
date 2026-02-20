@@ -102,7 +102,9 @@ const Index = () => {
     <div className="min-h-screen bg-background font-sans">
       {/* Fixed Logo */}
       <div className="fixed top-4 left-4 z-50">
-        <img src={logoLatem} alt="LATEM Logo" className="w-18 h-18 object-contain" />
+        <div className="w-14 h-14 rounded-xl flex items-center justify-center silver-shine border border-border bg-background/80 backdrop-blur-sm">
+          <Building2 className="w-7 h-7 text-silver-bright" strokeWidth={1.5} />
+        </div>
       </div>
 
       {/* Hero Section */}
@@ -307,9 +309,8 @@ const Index = () => {
             </div>
 
             {/* Center message */}
-
-            <div className="flex-1 text-center">
-              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs mx-auto">
+            <div className="flex-1 flex items-center justify-center">
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs text-center mx-auto">
                 Este teste é parte do programa de{" "}
                 <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
                 Sua participação é essencial.
