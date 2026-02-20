@@ -303,7 +303,7 @@ const Index = () => {
             <div className="flex items-center gap-4">
              <div className="w-12 h-12 flex items-center justify-center"> 
   <img 
-    src="/ecopia.png" 
+    src="public/ecopia.png" 
     alt="Logo da Empresa" 
     className="w-full h-full object-contain" 
   />
