@@ -104,7 +104,7 @@ const Index = () => {
       <div className="fixed top-4 left-4 z-50">
         <div className="w-50 h-50 flex items-center justify-center"> 
   <img 
-    src="public/Logo - Vertical Branco - Cópia.png"
+    src="Cópia.png"
     alt="Logo da Empresa" 
     className="w-full h-full object-contain" 
   />
