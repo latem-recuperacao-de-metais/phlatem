@@ -102,7 +102,7 @@ const Index = () => {
     <div className="min-h-screen bg-background font-sans">
       {/* Fixed Logo */}
       <div className="fixed top-4 left-4 z-50">
-        <div className="w-11 h-11 flex items-center justify-center"> 
+        <div className="w-12 h-12 flex items-center justify-center"> 
   <img 
     src="Cópia.png"
     alt="Logo da Empresa" 
