@@ -102,7 +102,7 @@ const Index = () => {
     <div className="min-h-screen bg-background font-sans">
       {/* Fixed Logo */}
       <div className="fixed top-4 left-4 z-50">
-        <img src={logoLatem} alt="LATEM Logo" className="w-12 h-12 rounded-lg shadow-lg" />
+        <img src={logoLatem} alt="LATEM Logo" className="w-50 h-50 rounded-lg shadow-lg" />
       </div>
 
       {/* Hero Section */}
