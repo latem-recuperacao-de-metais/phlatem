@@ -103,7 +103,7 @@ const Index = () => {
       {/* Fixed Logo */}
       <div className="fixed top-4 left-4 z-50">
         <div className="w-14 h-14 rounded-xl flex items-center justify-center silver-shine border border-border bg-background/80 backdrop-blur-sm">
-          <Building2 className="w-7 h-7 text-silver-bright" strokeWidth={1.5} />
+          <Building2 className="w-10 h-10 text-silver-bright" strokeWidth={1.5} />
         </div>
       </div>
 
