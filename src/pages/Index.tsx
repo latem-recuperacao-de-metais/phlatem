@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import logoLatem from "@/assets/logo-latem.png";
 import {
   ShieldAlert,
   Mail,
@@ -99,6 +100,11 @@ const protectionSteps = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-background font-sans">
+      {/* Fixed Logo */}
+      <div className="fixed top-4 left-4 z-50">
+        <img src={logoLatem} alt="LATEM Logo" className="w-12 h-12 rounded-lg shadow-lg" />
+      </div>
+
       {/* Hero Section */}
       <section
         className="relative min-h-screen flex items-center justify-center overflow-hidden scan-effect"
@@ -302,18 +308,12 @@ const Index = () => {
 
             {/* Center message */}
 
-            <div className="text-center max-w-xs">
-
-              <p className="text-muted-foreground text-sm leading-relaxed">
-
+            <div className="flex-1 text-center">
+              <p className="text-muted-foreground text-sm leading-relaxed max-w-xs mx-auto">
                 Este teste é parte do programa de{" "}
-
                 <span className="text-foreground font-medium">Treinamento em Segurança</span> da nossa empresa.
-
                 Sua participação é essencial.
-
               </p>
-
             </div>
 
             {/* Contact */}
