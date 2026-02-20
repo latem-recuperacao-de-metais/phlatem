@@ -102,9 +102,13 @@ const Index = () => {
     <div className="min-h-screen bg-background font-sans">
       {/* Fixed Logo */}
       <div className="fixed top-4 left-4 z-50">
-        <div className="w-14 h-14 rounded-xl flex items-center justify-center silver-shine border border-border bg-background/80 backdrop-blur-sm">
-          <Building2 className="w-25 h-25 text-silver-bright" strokeWidth={1.5} />
-        </div>
+        <div className="w-24 h-24 flex items-center justify-center"> {/* Ajuste o w- e h- para o tamanho desejado */}
+  <img 
+    src="/logo-empresa.png"  /* O nome exato do arquivo que você subiu */
+    alt="Logo da Empresa" 
+    className="w-full h-full object-contain" 
+  />
+</div>
       </div>
 
       {/* Hero Section */}
