@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Definido o caminho base para o repositório correto no GitHub Pages
-  base: '/phishinglatem/', 
+  // Alterado de '/phishinglatem/' para '/' para funcionar perfeitamente na Vercel
+  base: '/', 
 
   server: {
     host: "::",
